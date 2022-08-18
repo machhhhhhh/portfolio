@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  background-color: white
+}
+
+.header {
+  display: flex;
+  padding-bottom: 20px;
+  box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-info{
+  text-align: center;
+  font-size: 10em;
+}
+.profile{
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.profile-image {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.first-year{
+  padding: 20px;
+  box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.first-year-tag{
+  margin-left: 3.5%;
+  padding-bottom: 20px;
+}
+
+.first-year-header{
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-year-header-info-image{
+  height: 300px;
+  border-radius: 30px;
+}
+
+.second-year{
+  margin-top: 20px;
+  box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.second-year-tag{
+  margin-left: 5%;
+  padding-bottom: 20px;
+}
+
+.second-year-header{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.second-year-header-info-image{
+  border-radius: 30%;
+  height: 250px;
+}
+
+.third-year{
+  margin-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.third-year-tag{
+  margin-left: 5%;
+  padding-bottom: 20px;
+}
+
+.third-year-header{
+  display: flex;
+}
+
+.third-year-header-title{
+  display: flex;
+  flex: 3;
+  justify-content: space-evenly;
+}
+
+.third-year-header-title-info-image{
+  width: 300px;
+  cursor: pointer;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.third-year-header-mp3{
+  margin-left: 40px;
+  flex: 1;
+}
+
+.third-year-header-mp3-info{
+  margin-top: 20px;
+}
+
+.workshop {
+  margin-top: 20px;
+}
+
+.workshop-tag{
+  margin-left: 5%;
+  padding-bottom: 20px;
+}
+
+.workshop-info{
+  display: flex;
+  justify-content: space-around;
+}
+.workshop-info-image{
+  border-radius: 30px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.modal-button{
+  color: red;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+.modal-button:hover{
+  color: black;
+}
+
+.modal-tag{
+  justify-content: space-between;
+  display: flex;
+}
